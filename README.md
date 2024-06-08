@@ -1,5 +1,3 @@
-Tentu, berikut ini adalah contoh README dalam bahasa Indonesia untuk repositori GitHub Anda:
-
 Metode Numerik: Integrasi Numerik untuk Mengestimasi Nilai Pi
 
 Repositori ini berisi implementasi metode integrasi numerik, khususnya aturan Simpson 1/3, untuk mengestimasi nilai Pi (π). Tujuan utama adalah membandingkan estimasi Pi menggunakan jumlah segmen yang berbeda dalam aturan Simpson 1/3 dan menganalisis akurasi serta efisiensi komputasional dari metode tersebut.
@@ -43,7 +41,3 @@ Kesimpulan
 Berdasarkan evaluasi aturan Simpson 1/3, metode ini efektif dalam mengestimasi Pi dengan akurasi yang semakin meningkat seiring dengan peningkatan jumlah segmen. Namun, terdapat trade-off antara akurasi dan waktu eksekusi, yang menekankan pentingnya memilih jumlah segmen yang optimal untuk aplikasi tertentu.
 
 Untuk informasi lebih lanjut, lihat [repositori GitHub](https://github.com/RasyaJeffrosson/Metode-Numerik_Implementasi-Integrasi-Numerik-untuk-Menghitung-Estimasi-nilai-Pi.git).
-
-
-
-Anda dapat menyesuaikan README tersebut dengan informasi tambahan atau instruksi yang diperlukan sesuai kebutuhan.
