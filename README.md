@@ -1,40 +1,49 @@
-READ ME
+Tentu, berikut ini adalah contoh README dalam bahasa Indonesia untuk repositori GitHub Anda:
 
-Program Implementasi Interpolasi Metode Polinomial Lagrange dan Newton
+Metode Numerik: Integrasi Numerik untuk Mengestimasi Nilai Pi
 
-Nama: Rasya Theresa Jeffrosson Purba  
-NIM: 21120122140092  
-Kelas: Metode Numerik B  
-Prodi: Teknik Komputer
+Repositori ini berisi implementasi metode integrasi numerik, khususnya aturan Simpson 1/3, untuk mengestimasi nilai Pi (π). Tujuan utama adalah membandingkan estimasi Pi menggunakan jumlah segmen yang berbeda dalam aturan Simpson 1/3 dan menganalisis akurasi serta efisiensi komputasional dari metode tersebut.
 
-Overview Masalah
-Program ini bertujuan untuk mengimplementasikan konsep interpolasi menggunakan metode polinomial Lagrange dan Newton. Data yang digunakan adalah hasil pengukuran fisika yang menunjukkan hubungan antara tegangan pada baja tahan karat dengan waktu yang diperlukan hingga baja tersebut mengalami patah. Dengan delapan nilai tegangan yang berbeda, tugasnya adalah membuat program yang menghasilkan interpolasi menggunakan kedua metode tersebut dan menampilkan hasilnya dalam bentuk plot atau grafik.
+Gambaran Umum
 
-Analisis Masalah
-Dalam tugas ini, mahasiswa diminta untuk membuat program yang mampu menghasilkan interpolasi menggunakan metode Lagrange dan Newton. Hasil interpolasi ini kemudian akan ditampilkan dalam bentuk plot grafik, dengan hubungan antara tegangan pada baja tahan karat sebagai sumbu \(x\) dan waktu patahnya sebagai sumbu \(y\). Program juga harus mampu menampilkan fungsi polinomial yang dihasilkan dari data yang diberikan.
+Integrasi numerik adalah teknik dasar dalam matematika komputasional yang digunakan untuk mendekati integral tentu, terutama ketika solusi analitis tidak memungkinkan. Dalam konteks ini, kami tertarik untuk mengestimasi nilai Pi dengan mengintegrasikan numerik fungsi \( f(x) = \frac{4}{1 + x^2} \) dari 0 hingga 1 menggunakan aturan Simpson 1/3. Tujuan utama meliputi:
 
-Langkah-Langkah Penyelesaian Masalah
-1. Memahami gambaran umum atau overview dari masalah yang diberikan.
-2. Menentukan serta menganalisis permasalahan yang ada.
-3. Mengkaji teori-teori terkait interpolasi Lagrange dan Newton.
-4. Mengimplementasikan teori interpolasi Lagrange dan Newton menggunakan bahasa pemrograman Python.
-5. Menguji hasil implementasi dan melakukan evaluasi terhadap hasil pengujian program.
-6. Menyusun kesimpulan berdasarkan hasil implementasi dan evaluasi.
+- Mengevaluasi efektivitas aturan Simpson 1/3 dalam mengestimasi Pi.
+- Menganalisis bagaimana akurasi estimasi dipengaruhi oleh jumlah segmen.
+- Menyelidiki hubungan antara jumlah segmen dan efisiensi komputasional.
 
-Implementasi Program
-Interpolasi Metode Polinomial Lagrange
-- Penjelasan Kode Program: Detail penjelasan mengenai fungsi-fungsi dan logika di balik implementasi interpolasi menggunakan metode Lagrange.
-- Pembuktian dengan Pengujian: Langkah-langkah pengujian serta hasil evaluasi dari pengujian tersebut.
+Implementasi
 
-Interpolasi Metode Polinomial Newton
-- Penjelasan Kode Program: Penjelasan detil mengenai implementasi metode interpolasi Newton beserta fungsi-fungsinya.
-- Pembuktian dengan Pengujian: Hasil evaluasi pengujian untuk metode interpolasi Newton.
+Implementasi meliputi:
 
-Hasil Pengujian dan Evaluasi
-Setelah pengujian dilakukan, dihasilkan visualisasi grafis dari data asli dan hasil interpolasi, serta fungsi polinomial yang dihasilkan. Evaluasi dari kedua metode interpolasi dilakukan dengan mempertimbangkan kecepatan, efisiensi, dan akurasi hasil interpolasi. 
+- Perhitungan fungsi \( f(x) \) yang akan diintegrasikan.
+- Metode integrasi Simpson 1/3 untuk menghitung integral.
+- Pengukuran akar kuadrat rata-rata (RMS) untuk evaluasi akurasi.
+- Eksperimen dengan berbagai jumlah segmen.
+- Analisis dan visualisasi hasil.
+
+Penggunaan untuk menjalankan program:
+
+Clone repositori: git clone https://github.com/RasyaJeffrosson/Metode-Numerik_Implementasi-Integrasi-Numerik-untuk-Menghitung-Estimasi-nilai-Pi.git
+Masuk ke direktori repositori: cd Metode-Numerik_Implementasi-Integrasi-Numerik-untuk-Menghitung-Estimasi-nilai-Pi
+Jalankan skrip Python:python main.py
+
+
+1. Clone repositori:
+   git clone https://github.com/RasyaJeffrosson/Metode-Numerik_Implementasi-Integrasi-Numerik-untuk-Menghitung-Estimasi-nilai-Pi.git
+2. Masuk ke direktori repositori:
+   cd Metode-Numerik_Implementasi-Integrasi-Numerik-untuk-Menghitung-Estimasi-nilai-Pi
+3. Jalankan skrip Python:
+   python main.py
+
+Hasil
+Hasil eksperimen divisualisasikan dalam grafik yang menunjukkan estimasi Pi, RMS error, dan waktu eksekusi untuk berbagai jumlah segmen. Grafik ini memberikan wawasan tentang akurasi dan efisiensi komputasional aturan Simpson 1/3 dalam mengestimasi Pi.
 
 Kesimpulan
-Dari implementasi kedua teknik interpolasi Lagrange dan Newton, dapat disimpulkan bahwa keduanya memberikan hasil interpolasi yang baik, namun dengan karakteristik yang berbeda. Metode Newton cenderung lebih efisien dalam hal waktu eksekusi dan kompleksitas program, sementara Metode Lagrange menawarkan keuntungan teoritis. Meskipun demikian, kedua metode memberikan fungsi polinomial hasil interpolasi yang sama.
+Berdasarkan evaluasi aturan Simpson 1/3, metode ini efektif dalam mengestimasi Pi dengan akurasi yang semakin meningkat seiring dengan peningkatan jumlah segmen. Namun, terdapat trade-off antara akurasi dan waktu eksekusi, yang menekankan pentingnya memilih jumlah segmen yang optimal untuk aplikasi tertentu.
 
-Link Github
-[https://github.com/RasyaJeffrosson/Lagrange-and-Newton-Polinomial-Interpolation-Rasya-Theresa-Jeffrosson-Purba](https://github.com/RasyaJeffrosson/Lagrange-and-Newton-Polinomial-Interpolation-Rasya-Theresa-Jeffrosson-Purba)
+Untuk informasi lebih lanjut, lihat [repositori GitHub](https://github.com/RasyaJeffrosson/Metode-Numerik_Implementasi-Integrasi-Numerik-untuk-Menghitung-Estimasi-nilai-Pi.git).
+
+
+
+Anda dapat menyesuaikan README tersebut dengan informasi tambahan atau instruksi yang diperlukan sesuai kebutuhan.
